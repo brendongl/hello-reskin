@@ -1,0 +1,14 @@
+UnityPy==1.25.4
+numpy
+pillow
+scipy
+scikit-image
+shapely
+mapbox_earcut
+astc-encoder-py
+texture2ddecoder
+etcpak
+fmod_toolkit
+pyfmodex
+librosa
+soundfile

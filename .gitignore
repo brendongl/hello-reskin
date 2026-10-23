@@ -1,0 +1,33 @@
+# your game dump and everything derived from it: never commit
+*.nsp
+*.nca
+*.tik
+*.cert
+*.keys
+nsp/
+exefs/
+romfs/
+dump/
+export/
+template/textures/
+inventory.json
+build/
+packs/*
+!packs/README.md
+work/
+# audio you fetched
+audio/sources/
+audio/clips/
+audio/eevee/
+audio/cries/
+audio/music/src/
+audio/music/orig/
+# tooling
+.venv/
+__pycache__/
+tools/hx/bin/
+tools/hx/obj/
+tools/hx/out/
+*.wav
+*.ogg
+*.zip

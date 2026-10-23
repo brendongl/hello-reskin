@@ -1,0 +1,75 @@
+{
+ "Face_Luigi_Main.yg": [
+  300800,
+  1225720
+ ],
+ "Face_Luigi_Touch.yg": [
+  300800,
+  1225720
+ ],
+ "Face_Luigi_MiniTouch.yg": [
+  300800,
+  1225720
+ ],
+ "Face_Luigi_BigTouch.yg": [
+  300800,
+  1225720
+ ],
+ "Face_Ground_Main.sh": [
+  608000,
+  2073651
+ ],
+ "Face_Ground_Touch.sh": [
+  608000,
+  2073651
+ ],
+ "Face_Ground_MiniTouch.sh": [
+  608000,
+  2073651
+ ],
+ "Face_Ground_BigTouch.sh": [
+  608000,
+  2073651
+ ],
+ "Face_Underwater_Main.sh": [
+  579200,
+  2254740
+ ],
+ "Face_Underwater_Touch.sh": [
+  579200,
+  2254740
+ ],
+ "Face_Underwater_MiniTouch.sh": [
+  579200,
+  2254740
+ ],
+ "Face_Underwater_BigTouch.sh": [
+  579200,
+  2254740
+ ],
+ "Face_MWTitle_Main.sh": [
+  307200,
+  1694893
+ ],
+ "Face_MWTitle_Touch.sh": [
+  307200,
+  1694893
+ ],
+ "Face_MWTitle_MiniTouch.sh": [
+  307200,
+  1694893
+ ],
+ "Face_MWTitle_BigTouch.sh": [
+  307200,
+  1694893
+ ],
+ "Face_Star.sh": [
+  1132800,
+  2934492
+ ],
+ "Face_Star_Fever.sh": [
+  1132800,
+  2934492
+ ],
+ "Face_Sleep.sh": null
+}
