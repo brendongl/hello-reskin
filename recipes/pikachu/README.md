@@ -26,6 +26,7 @@ unofficial fan recipe. The sources listed are fetched by you, for your own copy.
 | `items/starlist.py` | builds the 4×3 Thunder Stone spin sheet (`StarList00`) |
 | `items/extras.py` | empty gift box (used block), gift menu icon, rivet-less menu frame |
 | `backgrounds/bg02.sh` | regenerates the Mario sticker wallpaper (`BG02`) with Pokémon stickers |
+| `backgrounds/bg01.sh` | regenerates the underwater background (`BG01`) with Magikarp/Tentacool silhouettes |
 
 ## Order of work
 
@@ -41,6 +42,7 @@ python tools/pika_atlas.py recipes/pikachu/atlas_params.json
 bash recipes/pikachu/items/gen_all.sh && python recipes/pikachu/items/fit.py
 python recipes/pikachu/items/pokeball.py && python recipes/pikachu/items/starlist.py && python recipes/pikachu/items/extras.py
 bash recipes/pikachu/backgrounds/bg02.sh          # then pick a variant (see its last line)
+bash recipes/pikachu/backgrounds/bg01.sh
 
 # 3. audio
 bash recipes/pikachu/fetch_sources.sh
@@ -80,8 +82,9 @@ regularly sneaks original Mario characters back into backgrounds and adds extra 
 | Boo / Blooper sounds | Gastly / Tentacool cries | `WU_SE_EMY_TERESA*`, `SE_FaceGessoAppear` |
 | Music | Pokémon Center, Route 1, Surf, Let's Go title, wild battle, Poké Flute (sleep) | `Face_Luigi_*`, `Face_Ground_*`, `Face_Underwater_*`, `Face_MWTitle_*`, `Face_Star*`, `Face_Sleep.sh` |
 | Mario sticker wallpaper | Pokémon sticker wallpaper | `BG02` |
+| Underwater (Cheep Cheep / Blooper silhouettes) | Magikarp / Tentacool silhouettes | `BG01` |
 
-Still Mario: the green warp pipe in the Diglett/Bellsprout events, and faint Cheep Cheep/Blooper silhouettes in the underwater background.
+Still Mario: the green warp pipe in the Diglett/Bellsprout events.
 
 ## Fixes this recipe already includes (and why)
 
