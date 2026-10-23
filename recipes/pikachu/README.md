@@ -25,6 +25,7 @@ unofficial fan recipe. The sources listed are fetched by you, for your own copy.
 | `items/pokeball.py` | renders the 5 Poké Ball coin-spin frames procedurally |
 | `items/starlist.py` | builds the 4×3 Thunder Stone spin sheet (`StarList00`) |
 | `items/extras.py` | empty gift box (used block), gift menu icon, rivet-less menu frame |
+| `backgrounds/bg02.sh` | regenerates the Mario sticker wallpaper (`BG02`) with Pokémon stickers |
 
 ## Order of work
 
@@ -39,6 +40,7 @@ python tools/pika_atlas.py recipes/pikachu/atlas_params.json
 # 2. items (needs OPENROUTER_API_KEY)
 bash recipes/pikachu/items/gen_all.sh && python recipes/pikachu/items/fit.py
 python recipes/pikachu/items/pokeball.py && python recipes/pikachu/items/starlist.py && python recipes/pikachu/items/extras.py
+bash recipes/pikachu/backgrounds/bg02.sh          # then pick a variant (see its last line)
 
 # 3. audio
 bash recipes/pikachu/fetch_sources.sh
@@ -71,14 +73,15 @@ regularly sneaks original Mario characters back into backgrounds and adds extra 
 | Koopa / Piranha Plant in pipe | Diglett / Bellsprout | `FaceEventDokanNokonoko00–01`, `FaceEventDokanPakkun00–01` |
 | Apple | Oran Berry | `FaceEventApple00` |
 | Luigi's cap | Ash's cap | `FaceEventCap01` |
-| Note block (background changer) | Jigglypuff's microphone | `FaceEventNoteBlock00` |
+| Note block (background changer) | Poké Flute (Jigglypuff's mic read as a pink blob at menu size) | `FaceEventNoteBlock00` |
 | Toad photographer | Eevee | `FaceEventToad00/02`, `FaceEventToadHand00`, `FaceBtnCamera00` |
 | Luigi's voice (191 lines) | Pikachu (Let's Go, Hey You Pikachu, SSBU, PokeAPI cry) | `Voice_Luigi_Face_*` |
 | Toad "Ho-hoo!" / laugh after photo | Eevee voice / Eevee laugh | `Voice_KinopioBlue_HoHo`, `SE_FaceTakePhotoAfter` |
 | Boo / Blooper sounds | Gastly / Tentacool cries | `WU_SE_EMY_TERESA*`, `SE_FaceGessoAppear` |
 | Music | Pokémon Center, Route 1, Surf, Let's Go title, wild battle, Poké Flute (sleep) | `Face_Luigi_*`, `Face_Ground_*`, `Face_Underwater_*`, `Face_MWTitle_*`, `Face_Star*`, `Face_Sleep.sh` |
+| Mario sticker wallpaper | Pokémon sticker wallpaper | `BG02` |
 
-Still Mario: the green warp pipe in the Diglett/Bellsprout events.
+Still Mario: the green warp pipe in the Diglett/Bellsprout events, and faint Cheep Cheep/Blooper silhouettes in the underwater background.
 
 ## Fixes this recipe already includes (and why)
 
